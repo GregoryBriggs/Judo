@@ -17,4 +17,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Run dependency-check
         run: |
-          bash ${{ github.workspace }}/.github/workflows/.scripts/dependency-check.sh
+          bash ${{ github.workspace }}/.github/scripts/dependency-check.sh
