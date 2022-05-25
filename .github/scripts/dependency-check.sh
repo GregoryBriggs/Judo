@@ -18,7 +18,7 @@ sudo npm install dependency-check
 echo "sudo npm install dependency-check successful"
 echo "running dependency check"
 
-find /. -name 'dependency-check'
+find . -name 'dependency-check'
 
 echo "running dependency check"
 
