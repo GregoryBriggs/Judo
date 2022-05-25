@@ -19,6 +19,7 @@ echo "sudo npm install dependency-check successful"
 echo "running dependency check"
 
 find . -name 'dependency-check'
+chmod 766 './node_modules/.bin/dependency-check'
 
 echo "running dependency check"
 
