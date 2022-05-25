@@ -6,24 +6,27 @@ echo "Starting script"
 echo ""
 
 # update npm 
-sudo npm install -g npm@8.10.0
+ npm install -g npm@8.10.0
 
 # print status
 echo "install dependency check"
 
 # install dependency check
-sudo npm install dependency-check
+ npm install dependency-check
 
 # print status
-echo "sudo npm install dependency-check successful"
+echo " npm install dependency-check successful"
 echo "running dependency check"
 
 find . -name 'dependency-check'
 chmod 766 './node_modules/.bin/dependency-check'
+pwd
+ls -als
 
 echo "running dependency check"
 
 # run at root of the project
-sudo npx dependency-check --scan ../*
+npx dependency-check --version
+npx dependency-check --scan ../*
 
 exit
