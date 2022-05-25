@@ -24,6 +24,6 @@ chmod 766 './node_modules/.bin/dependency-check'
 echo "running dependency check"
 
 # run at root of the project
-sudo npx dependency-check --scan ../
+sudo npx dependency-check --scan ../*
 
 exit
