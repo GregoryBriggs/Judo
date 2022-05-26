@@ -27,6 +27,6 @@ echo "running dependency check"
 
 # run at root of the project
 npx dependency-check --version
-npx dependency-check --scan ./*
+npx dependency-check --scan ./node_modules/package.json
 
 exit
