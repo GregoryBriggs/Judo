@@ -1,12 +1,17 @@
 export class Unique {
+
+  #uniqueSet;
+
   /**
    *
    * @param {Array} arrayToCheck
    */
   constructor(arrayToCheck) {
     this.stringArray = this.#getStringArray(arrayToCheck);
-    this.unique = new Set(this.stringArray);
-    this.duplicateEntries = this.#getDuplicates(this.stringArray, this.unique);
+    this.unique = [... new Set(this.stringArray)];
+    this.#uniqueSet = new Set(this.stringArray);
+    this.duplicateEntries = this.#getDuplicates(this.stringArray, this.#uniqueSet);
+    this.containsDuplicates = this.duplicateEntries?.length ? true : false;
   }
 
   /**
@@ -27,14 +32,14 @@ export class Unique {
    * @param {Set} unique
    */
   #getDuplicates(array, unique) {
-    var duplicateEntries = [];
+    var duplicateEntries = new Set();
     array.forEach((element) => {
       if (unique.has(element)) {
         unique.delete(element);
       } else {
-        duplicateEntries.push(element);
+        duplicateEntries.add(element);
       }
     });
-    return duplicateEntries;
+    return [...duplicateEntries];
   }
 }
