@@ -3,9 +3,11 @@
     "version": "0.0.1",
     "description": "JS Based Testing Framework",
     "main": "index.js",
-    "type": "module",
     "scripts": {
         "test": "judo-util-unique"
+    },
+    "exorts": {
+        "./src/unique.js": "judo-util-unique"
     },
     "repository": {
         "type": "git",

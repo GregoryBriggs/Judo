@@ -1,4 +1,4 @@
-export class Unique {
+class Unique {
 
   #uniqueSet;
 
@@ -43,3 +43,5 @@ export class Unique {
     return [...duplicateEntries];
   }
 }
+
+module.exports = { Unique };
