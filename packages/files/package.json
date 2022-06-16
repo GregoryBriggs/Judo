@@ -3,6 +3,7 @@
     "version": "0.0.0",
     "description": "JS Based Testing Framework",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "judo-fs"
     },

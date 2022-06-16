@@ -1,0 +1,6 @@
+"Complex csv",simpleColumn
+Read in complex data,"Using a mixture of quoted and unquoted fields"
+"Verify all scenarios work","Using a mixture of quoted and unquoted fields"
+No quotes,on this row
+spaces , and no quotes on this row
+"quotes , and no quotes on this row" , "should I include support for mixed fields?"
