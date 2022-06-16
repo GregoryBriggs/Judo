@@ -19,5 +19,8 @@
     "bugs": {
         "url": "https://github.com/GregoryBriggs/Judo/issues"
     },
-    "homepage": "https://github.com/GregoryBriggs/Judo/error_code#readme"
+    "homepage": "https://github.com/GregoryBriggs/Judo/error_code#readme",
+    "dependencies": {
+        "judo-errors": "^0.0.0"
+    }
 }
