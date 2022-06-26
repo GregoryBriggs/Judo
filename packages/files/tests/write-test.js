@@ -1,20 +1,69 @@
-import Write from '../src/write.js'
+import fs from "fs";
+import Write from "../src/write.js";
 
-let optons = {
-    fileNameAndDirectory: "./test/test.txt",
-    content: "Hello World",
-    charset: "utf-8"
+let textContent = {
+  fileNameAndDirectory: "./test/test.txt",
+  content: "Hello World",
+  charset: "utf-8",
+};
+let jsonArrrayContent = {
+  fileNameAndDirectory: "./test/jsonArray.json",
+  content: fs.readFileSync("./packages/files/tests/data/data-list.json", "utf-8"),
+  charset: "utf-8",
+};
+let jsonObjectContent = {
+  fileNameAndDirectory: "./test/jsonObject.json",
+  content: fs.readFileSync("./packages/files/tests/data/data-object.json", "utf-8"),
+  charset: "utf-8",
+};
+let csvObject = {
+  fileNameAndDirectory: "./test/data.csv",
+  content: fs.readFileSync("./packages/files/tests/data/data.csv", "utf-8"),
+  delimiter: '","',
+  charset: "utf-8"
 };
 
+// plain text
 try {
-    const write = new Write( optons);
-}catch(err){
-    console.log(err);
+  const write = new Write(textContent);
+} catch (err) {
+  console.log(err);
 }
 
 try {
-    const write = new Write();
-    write._(optons.fileNameAndDirectory, optons.content, optons.charset);
-}catch(err){
-    console.log(err);
+  const write = new Write();
+  write._(
+    textContent.fileNameAndDirectory,
+    textContent.content,
+    textContent.charset
+  );
+} catch (err) {
+  console.log(err);
+}
+
+try {
+  const write = new Write();
+  write._(textContent);
+} catch (err) {
+  console.log(err);
+}
+
+// json
+try {
+  const write = new Write(jsonArrrayContent);
+} catch (err) {
+  console.log(err);
+}
+
+try {
+  const write = new Write(jsonObjectContent);
+} catch (err) {
+  console.log(err);
+}
+
+// csv
+try {
+  const write = new Write(csvObject);
+} catch (err) {
+  console.log(err);
 }

@@ -1,10 +1,10 @@
 {
-    "name": "judo",
+    "name": "judo-test",
     "version": "0.0.0",
     "description": "JS Based Testing Framework",
     "main": "index.js",
     "scripts": {
-        "test": "judo"
+        "test": "judo-test"
     },
     "repository": {
         "type": "git",

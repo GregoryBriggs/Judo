@@ -14,6 +14,9 @@ export default class Write {
   object = "object";
 
   constructor(options) {
+    this._ = (options) => {
+      this.#writeFile(options.fileNameAndDirectory, options.content, options.charset, this.#fs);
+    };
     this._ = (fileNameAndDirectory, content, charset = "utf-8") => {
       this.#writeFile(fileNameAndDirectory, content, charset, this.#fs);
     };
@@ -172,7 +175,12 @@ export default class Write {
    * @param {Array} content
    */
   #json(content, replacer, options) {
-    return JSON.stringify(content, replacer, options);
+    try{
+      return JSON.stringify(JSON.parse(content, replacer, options));
+    }
+    catch(e){
+      return JSON.stringify(content);
+    }
   }
 
   /**

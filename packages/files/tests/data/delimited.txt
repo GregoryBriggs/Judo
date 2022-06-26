@@ -1,4 +1,4 @@
-A plain|pipe delimited
+A plain|pipe delimited file
 First row | considered to be headers
 |could have empty values
 Will have no space|between entries
