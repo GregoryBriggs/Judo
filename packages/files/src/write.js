@@ -15,10 +15,10 @@ export default class Write {
 
   constructor(options) {
     this._ = (options) => {
-      this.#writeFile(options.fileNameAndDirectory, options.content, options.charset, this.#fs);
+      this.#writeFile(options.fileNameAndDirectory, options.content, options.options, this.#fs);
     };
-    this._ = (fileNameAndDirectory, content, charset = "utf-8") => {
-      this.#writeFile(fileNameAndDirectory, content, charset, this.#fs);
+    this._ = (fileNameAndDirectory, content, options = {charset:"utf-8"}) => {
+      this.#writeFile(fileNameAndDirectory, content, options, this.#fs);
     };
     import("node:fs").then((fs) => {
       this.#fs = fs;

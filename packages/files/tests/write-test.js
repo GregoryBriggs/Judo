@@ -57,6 +57,7 @@ try {
 
 try {
   const write = new Write(jsonObjectContent);
+  console.log("PASS - write json object content")
 } catch (err) {
   console.log(err);
 }
@@ -64,6 +65,7 @@ try {
 // csv
 try {
   const write = new Write(csvObject);
+  console.log("PASS - write json object content")
 } catch (err) {
   console.log(err);
 }
