@@ -1,0 +1,33 @@
+{
+    "name": "judo-util-translate",
+    "version": "0.0.1",
+    "description": "JS Based Testing Framework",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "judo-util-translate"
+    },
+    "exorts": {
+        "./src/translate.js": "judo-util-translate"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GregoryBriggs/Judo.git"
+    },
+    "keywords": [
+        "array",
+        "translate",
+        "util",
+        "judo",
+        "performant",
+        "array",
+        "helper",
+        "duplicate"
+    ],
+    "author": "Gregory Briggs",
+    "license": "AGPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/GregoryBriggs/Judo/issues"
+    },
+    "homepage": "https://github.com/GregoryBriggs/Judo#readme"
+}

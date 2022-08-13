@@ -1,0 +1,493 @@
+{
+    "comment": {
+        "open": "<!--",
+        "cloe": "-->"
+    },
+    "doctype": {
+        "open": "<!DOCTYPE",
+        "cloe": "<!/DOCTYPE>"
+    },
+    "a": {
+        "open": "<a",
+        "cloe": "</a>"
+    },
+    "abbsr": {
+        "open": "<abbr",
+        "close": "</abbr>"
+    },
+    "acronym": {
+        "open": "<acronym",
+        "close": "</acronym>"
+    },
+    "address": {
+        "open": "<address",
+        "close": "</address>"
+    },
+    "applet": {
+        "open": "<applet",
+        "close": "</applet>"
+    },
+    "area": {
+        "open": "<area",
+        "close": "</area>"
+    },
+    "article": {
+        "open": "<article",
+        "close": "</article>"
+    },
+    "aside": {
+        "open": "<aside",
+        "close": "</aside>"
+    },
+    "audio": {
+        "open": "<audio",
+        "close": "</audio>"
+    },
+    "b": {
+        "open": "<b",
+        "close": "</b>"
+    },
+    "base": {
+        "open": "<base",
+        "close": "</base>"
+    },
+    "basefont": {
+        "open": "<basefont",
+        "close": "</basefont>"
+    },
+    "bdi": {
+        "open": "<bdi",
+        "close": "</bdi>"
+    },
+    "bdo": {
+        "open": "<bdo",
+        "close": "</bdo>"
+    },
+    "big": {
+        "open": "<big",
+        "close": "</big>"
+    },
+    "blockquote": {
+        "open": "<blockquote",
+        "close": "</blockquote>"
+    },
+    "body": {
+        "open": "<body",
+        "close": "</body>"
+    },
+    "br": {
+        "open": "<br",
+        "close": "</br>"
+    },
+    "button": {
+        "open": "<button",
+        "close": "</button>"
+    },
+    "canvas": {
+        "open": "<canvas",
+        "close": "</canvas>"
+    },
+    "caption": {
+        "open": "<caption",
+        "close": "</caption>"
+    },
+    "center": {
+        "open": "<center",
+        "close": "</center>"
+    },
+    "cite": {
+        "open": "<cite",
+        "close": "</cite>"
+    },
+    "code": {
+        "open": "<code",
+        "close": "</code>"
+    },
+    "col": {
+        "open": "<col",
+        "close": "</col>"
+    },
+    "colgroup": {
+        "open": "<colgroup",
+        "close": "</colgroup>"
+    },
+    "data": {
+        "open": "<data",
+        "close": "</data>"
+    },
+    "datalist": {
+        "open": "<datalist",
+        "close": "</datalist>"
+    },
+    "dd": {
+        "open": "<dd",
+        "close": "</dd>"
+    },
+    "del": {
+        "open": "<del",
+        "close": "</del>"
+    },
+    "details": {
+        "open": "<details",
+        "close": "</details>"
+    },
+    "dfn": {
+        "open": "<dfn",
+        "close": "</dfn>"
+    },
+    "dialog": {
+        "open": "<dialog",
+        "close": "</dialog>"
+    },
+    "dir": {
+        "open": "<dir",
+        "close": "</dir>"
+    },
+    "div": {
+        "open": "<div",
+        "close": "</div>"
+    },
+    "dl": {
+        "open": "<dl",
+        "close": "</dl>"
+    },
+    "dt": {
+        "open": "<dt",
+        "close": "</dt>"
+    },
+    "em": {
+        "open": "<em",
+        "close": "</em>"
+    },
+    "embed": {
+        "open": "<embed",
+        "close": "</embed>"
+    },
+    "fieldset": {
+        "open": "<fieldset",
+        "close": "</fieldset>"
+    },
+    "figcaption": {
+        "open": "<figcaption",
+        "close": "</figcaption>"
+    },
+    "figure": {
+        "open": "<figure",
+        "close": "</figure>"
+    },
+    "font": {
+        "open": "<font",
+        "close": "</font>"
+    },
+    "footer": {
+        "open": "<footer",
+        "close": "</footer>"
+    },
+    "form": {
+        "open": "<form",
+        "close": "</form>"
+    },
+    "frame": {
+        "open": "<frame",
+        "close": "</frame>"
+    },
+    "frameset": {
+        "open": "<frameset",
+        "close": "</frameset>"
+    },
+    "h1": {
+        "open": "<h1",
+        "close": "</h1>"
+    },
+    "h2": {
+        "open": "<h2",
+        "close": "</h2>"
+    },
+    "h3": {
+        "open": "<h3",
+        "close": "</h3>"
+    },
+    "h4": {
+        "open": "<h4",
+        "close": "</h4>"
+    },
+    "h5": {
+        "open": "<h5",
+        "close": "</h5>"
+    },
+    "h6": {
+        "open": "<h6",
+        "close": "</h6>"
+    },
+    "head": {
+        "open": "<head",
+        "close": "</head>"
+    },
+    "header": {
+        "open": "<header",
+        "close": "</header>"
+    },
+    "hr": {
+        "open": "<hr",
+        "close": "</hr>"
+    },
+    "html": {
+        "open": "<html",
+        "close": "</html>"
+    },
+    "i": {
+        "open": "<i",
+        "close": "</i>"
+    },
+    "iframe": {
+        "open": "<iframe",
+        "close": "</iframe>"
+    },
+    "img": {
+        "open": "<img",
+        "close": "</img>"
+    },
+    "input": {
+        "open": "<input",
+        "close": "</input>"
+    },
+    "ins": {
+        "open": "<ins",
+        "close": "</ins>"
+    },
+    "kbd": {
+        "open": "<kbd",
+        "close": "</kbd>"
+    },
+    "label": {
+        "open": "<label",
+        "close": "</label>"
+    },
+    "legend": {
+        "open": "<legend",
+        "close": "</legend>"
+    },
+    "li": {
+        "open": "<li",
+        "close": "</li>"
+    },
+    "link": {
+        "open": "<link"
+    },
+    "main": {
+        "open": "<main",
+        "close": "</main>"
+    },
+    "map": {
+        "open": "<map",
+        "close": "</map>"
+    },
+    "mark": {
+        "open": "<mark",
+        "close": "</mark>"
+    },
+    "meta": {
+        "open": "<meta",
+        "close": "</meta>"
+    },
+    "meter": {
+        "open": "<meter",
+        "close": "</meter>"
+    },
+    "nav": {
+        "open": "<nav",
+        "close": "</nav>"
+    },
+    "noframes": {
+        "open": "<noframes",
+        "close": "</noframes>"
+    },
+    "noscript": {
+        "open": "<noscript",
+        "close": "</noscript>"
+    },
+    "object": {
+        "open": "<object",
+        "close": "</object>"
+    },
+    "ol": {
+        "open": "<ol",
+        "close": "</ol>"
+    },
+    "optgroup": {
+        "open": "<optgroup",
+        "close": "</optgroup>"
+    },
+    "option": {
+        "open": "<option",
+        "close": "</option>"
+    },
+    "output": {
+        "open": "<output",
+        "close": "</output>"
+    },
+    "p": {
+        "open": "<p",
+        "close": "</p>"
+    },
+    "param": {
+        "open": "<param",
+        "close": "</param>"
+    },
+    "picture": {
+        "open": "<picture",
+        "close": "</picture>"
+    },
+    "pre": {
+        "open": "<pre",
+        "close": "</pre>"
+    },
+    "progress": {
+        "open": "<progress",
+        "close": "</progress>"
+    },
+    "q": {
+        "open": "<q",
+        "close": "</q>"
+    },
+    "rp": {
+        "open": "<rp",
+        "close": "</rp>"
+    },
+    "rt": {
+        "open": "<rt",
+        "close": "</rt>"
+    },
+    "ruby": {
+        "open": "<ruby",
+        "close": "</ruby>"
+    },
+    "s": {
+        "open": "<s",
+        "close": "</s>"
+    },
+    "samp": {
+        "open": "<samp",
+        "close": "</samp>"
+    },
+    "script": {
+        "open": "<script",
+        "close": "</script>"
+    },
+    "section": {
+        "open": "<section",
+        "close": "</section>"
+    },
+    "select": {
+        "open": "<select",
+        "close": "</select>"
+    },
+    "small": {
+        "open": "<small",
+        "close": "</small>"
+    },
+    "source": {
+        "open": "<source",
+        "close": "</source>"
+    },
+    "span": {
+        "open": "<span",
+        "close": "</span>"
+    },
+    "strike": {
+        "open": "<strike",
+        "close": "</strike>"
+    },
+    "strong": {
+        "open": "<strong",
+        "close": "</strong>"
+    },
+    "style": {
+        "open": "<style",
+        "close": "</style>"
+    },
+    "sub": {
+        "open": "<sub",
+        "close": "</sub>"
+    },
+    "summary": {
+        "open": "<summary",
+        "close": "</summary>"
+    },
+    "sup": {
+        "open": "<sup",
+        "close": "</sup>"
+    },
+    "svg": {
+        "open": "<svg",
+        "close": "</svg>"
+    },
+    "table": {
+        "open": "<table",
+        "close": "</table>"
+    },
+    "tbody": {
+        "open": "<tbody",
+        "close": "</tbody>"
+    },
+    "td": {
+        "open": "<td",
+        "close": "</td>"
+    },
+    "template": {
+        "open": "<template",
+        "close": "</template>"
+    },
+    "textarea": {
+        "open": "<textarea",
+        "close": "</textarea>"
+    },
+    "tfoot": {
+        "open": "<tfoot",
+        "close": "</tfoot>"
+    },
+    "th": {
+        "open": "<th",
+        "close": "</th>"
+    },
+    "thead": {
+        "open": "<thead",
+        "close": "</thead>"
+    },
+    "time": {
+        "open": "<time",
+        "close": "</time>"
+    },
+    "title": {
+        "open": "<title",
+        "close": "</title>"
+    },
+    "tr": {
+        "open": "<tr",
+        "close": "</tr>"
+    },
+    "track": {
+        "open": "<track",
+        "close": "</track>"
+    },
+    "u": {
+        "open": "<u",
+        "close": "</u>"
+    },
+    "ul": {
+        "open": "<ul",
+        "close": "</ul>"
+    },
+    "var": {
+        "open": "<var",
+        "close": "</var>"
+    },
+    "video": {
+        "open": "<video",
+        "close": "</video>"
+    },
+    "wbr": {
+        "open": "<wbr",
+        "close": "</wbr>"
+    }
+}

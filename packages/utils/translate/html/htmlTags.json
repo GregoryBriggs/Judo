@@ -1,0 +1,17 @@
+{
+    "html": {
+        "open": "<html",
+        "close": "</html>",
+        "description": "Defines page"
+    },
+    "head": {
+        "open": "<head",
+        "close": "</head>",
+        "description": "Defines the title of a document"
+    },
+    "body": {
+        "open": "<body",
+        "close": "</body>",
+        "description": "Defines renedered body of the page"
+    }
+}
