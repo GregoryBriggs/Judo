@@ -1,0 +1,32 @@
+{
+    "name": "judo-util-unique",
+    "version": "0.0.1",
+    "description": "JS Based Testing Framework",
+    "main": "index.js",
+    "scripts": {
+        "test": "judo-util-unique"
+    },
+    "exorts": {
+        "./src/unique.js": "judo-util-unique"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GregoryBriggs/Judo.git"
+    },
+    "keywords": [
+        "array",
+        "unique",
+        "util",
+        "judo",
+        "performant",
+        "array",
+        "helper",
+        "duplicate"
+    ],
+    "author": "Gregory Briggs",
+    "license": "AGPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/GregoryBriggs/Judo/issues"
+    },
+    "homepage": "https://github.com/GregoryBriggs/Judo#readme"
+}

@@ -1,0 +1,37 @@
+{
+    "head": {
+        "open": "<head",
+        "close": "</head>",
+        "Descritpion": "Defines information about the document"
+    },
+    "title": {
+        "open": "<title",
+        "close": "</title>",
+        "Descritpion": "Defines the title of a document"
+    },
+    "base": {
+        "open": "<base",
+        "close": "</base>",
+        "Descritpion": "Defines a default address or a default target for all links on a page"
+    },
+    "link": {
+        "open": "<link",
+        "close": "</link>",
+        "Descritpion": "Defines the relationship between a document and an external resource"
+    },
+    "meta": {
+        "open": "<meta",
+        "close": "</meta>",
+        "Descritpion": "Defines metadata about an HTML document"
+    },
+    "script": {
+        "open": "<script",
+        "close": "</script>",
+        "Descritpion": "Defines a client-side script"
+    },
+    "style": {
+        "open": "<style",
+        "close": "</style>",
+        "Descritpion": "Defines style information for a document"
+    }
+}

@@ -1,0 +1,1330 @@
+{
+    "onabort": {
+        "tags": [
+            "audio",
+            "embed",
+            "img",
+            "object",
+            "video"
+        ],
+        "description": "Script to be run on abort"
+    },
+    "onafterprint": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run after the document is printed"
+    },
+    "onbeforeprint": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run before the document is printed"
+    },
+    "onbeforeunload": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when the document is about to be unloaded"
+    },
+    "onblur": {
+        "description": "All visible elements. Script to be run when the element loses focus"
+    },
+    "oncanplay": {
+        "tags": [
+            "audio",
+            "embed",
+            "object",
+            "video"
+        ],
+        "description": "Script to be run when a file is ready to start playing (when it has buffered enough to begin)"
+    },
+    "oncanplaythrough": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when a file can be played all the way to the end without pausing for buffering"
+    },
+    "onchange": {
+        "description": "All visible elements. Script to be run when the value of the element is changed"
+    },
+    "onclick": {
+        "description": "All visible elements. Script to be run when the element is being clicked"
+    },
+    "oncontextmenu": {
+        "description": "All visible elements. Script to be run when a context menu is triggered"
+    },
+    "oncopy": {
+        "description": "All visible elements. Script to be run when the content of the element is being copied"
+    },
+    "oncuechange": {
+        "tags": [
+            "track"
+        ],
+        "description": "Script to be run when the cue changes in a \"track\" element"
+    },
+    "oncut": {
+        "description": "All visible elements. Script to be run when the content of the element is being cut"
+    },
+    "ondblclick": {
+        "description": "All visible elements. Script to be run when the element is being double-clicked"
+    },
+    "ondrag": {
+        "description": "All visible elements. Script to be run when the element is being dragged"
+    },
+    "ondragend": {
+        "description": "All visible elements. Script to be run at the end of a drag operation"
+    },
+    "ondragenter": {
+        "description": "All visible elements. Script to be run when an element has been dragged to a valid drop target"
+    },
+    "ondragleave": {
+        "description": "All visible elements. Script to be run when an element leaves a valid drop target"
+    },
+    "ondragover": {
+        "description": "All visible elements. Script to be run when an element is being dragged over a valid drop target"
+    },
+    "ondragstart": {
+        "description": "All visible elements. Script to be run at the start of a drag operation"
+    },
+    "ondrop": {
+        "description": "All visible elements. Script to be run when dragged element is being dropped"
+    },
+    "ondurationchange": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the length of the media changes"
+    },
+    "onemptied": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when something bad happens and the file is suddenly unavailable (like unexpectedly disconnects)"
+    },
+    "onended": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the media has reach the end (a useful event for messages like \"thanks for listening\")"
+    },
+    "onerror": {
+        "tags": [
+            "audio",
+            "body",
+            "embed",
+            "img",
+            "object",
+            "script",
+            "style",
+            "video"
+        ],
+        "description": "Script to be run when an error occurs"
+    },
+    "onfocus": {
+        "description": "All visible elements. Script to be run when the element gets focus"
+    },
+    "onhashchange": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when there has been changes to the anchor part of the a URL"
+    },
+    "oninput": {
+        "description": "All visible elements. Script to be run when the element gets user input"
+    },
+    "oninvalid": {
+        "description": "All visible elements. Script to be run when the element is invalid"
+    },
+    "onkeydown": {
+        "description": "All visible elements. Script to be run when a user is pressing a key"
+    },
+    "onkeypress": {
+        "description": "All visible elements. Script to be run when a user presses a key"
+    },
+    "onkeyup": {
+        "description": "All visible elements. Script to be run when a user releases a key"
+    },
+    "onload": {
+        "tags": [
+            "body",
+            "iframe",
+            "img",
+            "input",
+            "link",
+            "script",
+            "style"
+        ],
+        "description": "Script to be run when the element is finished loading"
+    },
+    "onloadeddata": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when media data is loaded"
+    },
+    "onloadedmetadata": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when meta data (like dimensions and duration) are loaded"
+    },
+    "onloadstart": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run just as the file begins to load before anything is actually loaded"
+    },
+    "onmousedown": {
+        "description": "All visible elements. Script to be run when a mouse button is pressed down on an element"
+    },
+    "onmousemove": {
+        "description": "All visible elements. Script to be run as long as the  mouse pointer is moving over an element"
+    },
+    "onmouseout": {
+        "description": "All visible elements. Script to be run when a mouse pointer moves out of an element"
+    },
+    "onmouseover": {
+        "description": "All visible elements. Script to be run when a mouse pointer moves over an element"
+    },
+    "onmouseup": {
+        "description": "All visible elements. Script to be run when a mouse button is released over an element"
+    },
+    "onmousewheel": {
+        "description": "All visible elements. Script to be run when a mouse wheel is being scrolled over an element"
+    },
+    "onoffline": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when the browser starts to work offline"
+    },
+    "ononline": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when the browser starts to work online"
+    },
+    "onpagehide": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when a user navigates away from a page"
+    },
+    "onpageshow": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when a user navigates to a page"
+    },
+    "onpaste": {
+        "description": "All visible elements. Script to be run when the user pastes some content in an element"
+    },
+    "onpause": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the media is paused either by the user or programmatically"
+    },
+    "onplay": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the media has started playing"
+    },
+    "onplaying": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the media has started playing"
+    },
+    "onpopstate": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when the window's history changes."
+    },
+    "onprogress": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the browser is in the process of getting the media data"
+    },
+    "onratechange": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode)."
+    },
+    "onreset": {
+        "tags": [
+            "form"
+        ],
+        "description": "Script to be run when a reset button in a form is clicked."
+    },
+    "onresize": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when the browser window is being resized."
+    },
+    "onscroll": {
+        "description": "All visible elements. Script to be run when an element's scrollbar is being scrolled"
+    },
+    "onsearch": {
+        "tags": [
+            "input"
+        ],
+        "description": "Script to be run when the user writes something in a search field (for \"input\"\"search\">)"
+    },
+    "onseeked": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the seeking attribute is set to false indicating that seeking has ended"
+    },
+    "onseeking": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the seeking attribute is set to true indicating that seeking is active"
+    },
+    "onselect": {
+        "description": "All visible elements. Script to be run when the element gets selected"
+    },
+    "onstalled": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the browser is unable to fetch the media data for whatever reason"
+    },
+    "onstorage": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when a Web Storage area is updated"
+    },
+    "onsubmit": {
+        "tags": [
+            "form"
+        ],
+        "description": "Script to be run when a form is submitted"
+    },
+    "onsuspend": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when fetching the media data is stopped before it is completely loaded for whatever reason"
+    },
+    "ontimeupdate": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the playing position has changed (like when the user fast forwards to a different point in the media)"
+    },
+    "ontoggle": {
+        "tags": [
+            "details"
+        ],
+        "description": "Script to be run when the user opens or closes the \"details\" element"
+    },
+    "onunload": {
+        "tags": [
+            "body"
+        ],
+        "description": "Script to be run when a page has unloaded (or the browser window has been closed)"
+    },
+    "onvolumechange": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run each time the volume of a video/audio has been changed"
+    },
+    "onwaiting": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Script to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data)"
+    },
+    "onwheel": {
+        "description": "All visible elements. Script to be run when the mouse wheel rolls up or down over an element"
+    },
+    "accept": {
+        "tags": [
+            "form",
+            "input"
+        ],
+        "description": "List of types the server accepts, typically a file type. "
+    },
+    "accept-charset": {
+        "tags": [
+            "form"
+        ],
+        "description": "List of supported charsets. "
+    },
+    "accesskey": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Keyboard shortcut to activate or add focus to the element. "
+    },
+    "action": {
+        "tags": [
+            "form"
+        ],
+        "description": "The URI of a program that processes the information submitted via the form. "
+    },
+    "align": {
+        "tags": [
+            "applet",
+            "caption",
+            "col",
+            "colgroup",
+            "hr",
+            "iframe",
+            "img",
+            "table",
+            "tbody",
+            "td",
+            "tfoot",
+            "th",
+            "thead",
+            "tr"
+        ],
+        "description": "Specifies the horizontal alignment of the element. "
+    },
+    "allow": {
+        "tags": [
+            "iframe"
+        ],
+        "description": "Specifies a feature-policy for the iframe. "
+    },
+    "alt": {
+        "tags": [
+            "applet",
+            "area",
+            "img",
+            "input"
+        ],
+        "description": "Alternative text in case an image can't be displayed. "
+    },
+    "async": {
+        "tags": [
+            "script"
+        ],
+        "description": "Executes the script asynchronously. "
+    },
+    "autocapitalize": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Sets whether input is automatically capitalized when entered by user "
+    },
+    "autocomplete": {
+        "tags": [
+            "form",
+            "input",
+            "select",
+            "textarea"
+        ],
+        "description": "Indicates whether controls in this form can by default have their values automatically completed by the browser. "
+    },
+    "autofocus": {
+        "tags": [
+            "button",
+            "input",
+            "keygen",
+            "select",
+            "textarea"
+        ],
+        "description": "The element should be automatically focused after the page loaded. "
+    },
+    "autoplay": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "The audio or video should play as soon as possible. "
+    },
+    "background": {
+        "tags": [
+            "body",
+            "table",
+            "td",
+            "th"
+        ],
+        "description": "Specifies the URL of an image file. Note: Although browsers and email clients may still support this attribute, it is obsolete. Use CSS background-image instead. "
+    },
+    "bgcolor": {
+        "tags": [
+            "body",
+            "col",
+            "colgroup",
+            "marquee",
+            "table",
+            "tbody",
+            "tfoot",
+            "td",
+            "th",
+            "tr"
+        ],
+        "description": "Background color of the element. Note: This is a legacy attribute. Please use the CSS background-color property instead. "
+    },
+    "border": {
+        "tags": [
+            "img",
+            "object",
+            "table"
+        ],
+        "description": "The border width. Note: This is a legacy attribute. Please use the CSS border property instead. "
+    },
+    "buffered": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Contains the time range of already buffered media. "
+    },
+    "capture": {
+        "tags": [
+            "input"
+        ],
+        "description": "From the Media Capture specification, specifies a new file can be captured. "
+    },
+    "challenge": {
+        "tags": [
+            "keygen"
+        ],
+        "description": "A challenge string that is submitted along with the public key. "
+    },
+    "charset": {
+        "tags": [
+            "meta",
+            "script"
+        ],
+        "description": "Declares the character encoding of the page or script. "
+    },
+    "checked": {
+        "tags": [
+            "command",
+            "input"
+        ],
+        "description": "Indicates whether the element should be checked on page load. "
+    },
+    "cite": {
+        "tags": [
+            "blockquote",
+            "del",
+            "ins",
+            "q"
+        ],
+        "description": "Contains a URI which points to the source of the quote or change. "
+    },
+    "class": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Often used with CSS to style elements with common properties. "
+    },
+    "code": {
+        "tags": [
+            "applet"
+        ],
+        "description": "Specifies the URL of the applet's class file to be loaded and executed. "
+    },
+    "codebase": {
+        "tags": [
+            "applet"
+        ],
+        "description": "This attribute gives the absolute or relative URL of the directory where applets' .class files referenced by the code attribute are stored. "
+    },
+    "color": {
+        "tags": [
+            "font",
+            "hr"
+        ],
+        "description": "This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format. Note: This is a legacy attribute. Please use the CSS color property instead. "
+    },
+    "cols": {
+        "tags": [
+            "textarea"
+        ],
+        "description": "Defines the number of columns in a textarea. "
+    },
+    "colspan": {
+        "tags": [
+            "td",
+            "th"
+        ],
+        "description": "The colspan attribute defines the number of columns a cell should span. "
+    },
+    "content": {
+        "tags": [
+            "meta"
+        ],
+        "description": "A value associated with http-equiv or name depending on the context. "
+    },
+    "contenteditable": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Indicates whether the element's content is editable. "
+    },
+    "contextmenu": {
+        "tags": [],
+        "description": "Defines the ID of a <menu> element which will serve as the element's context menu."
+    },
+    "controls": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Indicates whether the browser should show playback controls to the user. "
+    },
+    "coords": {
+        "tags": [
+            "area"
+        ],
+        "description": "A set of values specifying the coordinates of the hot-spot region. "
+    },
+    "crossorigin": {
+        "tags": [
+            "audio",
+            "img",
+            "link",
+            "script",
+            "video"
+        ],
+        "description": "How the element handles cross-origin requests "
+    },
+    "csp": {
+        "tags": [
+            "iframe"
+        ],
+        "description": "Specifies the Content Security Policy that an embedded document must agree to enforce upon itself. "
+    },
+    "data": {
+        "tags": [
+            "object"
+        ],
+        "description": "Specifies the URL of the resource. "
+    },
+    "data-*": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Lets you attach custom attributes to an HTML element. "
+    },
+    "datetime": {
+        "tags": [
+            "del",
+            "ins",
+            "time"
+        ],
+        "description": "Indicates the date and time associated with the element. "
+    },
+    "decoding": {
+        "tags": [
+            "img"
+        ],
+        "description": "Indicates the preferred method to decode the image. "
+    },
+    "default": {
+        "tags": [
+            "track"
+        ],
+        "description": "Indicates that the track should be enabled unless the user's preferences indicate something different. "
+    },
+    "defer": {
+        "tags": [
+            "script"
+        ],
+        "description": "Indicates that the script should be executed after the page has been parsed. "
+    },
+    "dir": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left) "
+    },
+    "dirname": {
+        "tags": [
+            "input",
+            "textarea"
+        ],
+        "description": " "
+    },
+    "disabled": {
+        "tags": [
+            "button",
+            "command",
+            "fieldset",
+            "input",
+            "keygen",
+            "optgroup",
+            "option",
+            "select",
+            "textarea"
+        ],
+        "description": "Indicates whether the user can interact with the element. "
+    },
+    "download": {
+        "tags": [
+            "a",
+            "area"
+        ],
+        "description": "Indicates that the hyperlink is to be used for downloading a resource. "
+    },
+    "draggable": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Defines whether the element can be dragged. "
+    },
+    "enctype": {
+        "tags": [
+            "form"
+        ],
+        "description": "Defines the content type of the form data when the method is POST. "
+    },
+    "enterkeyhint": {
+        "tags": [
+            "textarea"
+        ],
+        "description": "The enterkeyhint specifies what action label (or icon) to present for the enter key on virtual keyboards. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute)."
+    },
+    "for": {
+        "tags": [
+            "label",
+            "output"
+        ],
+        "description": "Describes elements which belongs to this one. "
+    },
+    "form": {
+        "tags": [
+            "button",
+            "fieldset",
+            "input",
+            "keygen",
+            "label",
+            "meter",
+            "object",
+            "output",
+            "progress",
+            "select",
+            "textarea"
+        ],
+        "description": "Indicates the form that is the owner of the element. "
+    },
+    "formaction": {
+        "tags": [
+            "input",
+            "button"
+        ],
+        "description": "Indicates the action of the element, overriding the action defined in the <form>."
+    },
+    "formenctype": {
+        "tags": [
+            "button",
+            "input"
+        ],
+        "description": "If the button/input is a submit button (type=\"submit\"), this attribute sets the encoding type to use during form submission. If this attribute is specified, it overrides the enctype attribute of the button's form owner. "
+    },
+    "formmethod": {
+        "tags": [
+            "button",
+            "input"
+        ],
+        "description": "If the button/input is a submit button (type=\"submit\"), this attribute sets the submission method to use during form submission (GET, POST, etc.). If this attribute is specified, it overrides the method attribute of the button's form owner. "
+    },
+    "formnovalidate": {
+        "tags": [
+            "button",
+            "input"
+        ],
+        "description": "If the button/input is a submit button (type=\"submit\"), this boolean attribute specifies that the form is not to be validated when it is submitted. If this attribute is specified, it overrides the novalidate attribute of the button's form owner. "
+    },
+    "formtarget": {
+        "tags": [
+            "button",
+            "input"
+        ],
+        "description": "If the button/input is a submit button (type=\"submit\"), this attribute specifies the browsing context (for example, tab, window, or inline frame) in which to display the response that is received after submitting the form. If this attribute is specified, it overrides the target attribute of the button's form owner. "
+    },
+    "headers": {
+        "tags": [
+            "td",
+            "th"
+        ],
+        "description": "IDs of the <th> elements which applies to this element."
+    },
+    "height": {
+        "tags": [
+            "canvas",
+            "embed",
+            "iframe",
+            "img",
+            "input",
+            "object",
+            "video"
+        ],
+        "description": "Specifies the height of elements listed here. For all other elements, use the CSS height property. Note: In some instances, such as <div>. this is a legacy attribute, in which case the CSS height property should be used instead."
+    },
+    "hidden": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Prevents rendering of given element, while keeping child elements, e.g. script elements, active. "
+    },
+    "high": {
+        "tags": [
+            "meter"
+        ],
+        "description": "Indicates the lower bound of the upper range. "
+    },
+    "href": {
+        "tags": [
+            "a",
+            "area",
+            "base",
+            "link"
+        ],
+        "description": "The URL of a linked resource. "
+    },
+    "hreflang": {
+        "tags": [
+            "a",
+            "area",
+            "link"
+        ],
+        "description": "Specifies the language of the linked resource. "
+    },
+    "http-equiv": {
+        "tags": [
+            "meta"
+        ],
+        "description": "Defines a pragma directive. "
+    },
+    "icon": {
+        "tags": [
+            "command"
+        ],
+        "description": "Specifies a picture which represents the command. "
+    },
+    "id": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Often used with CSS to style a specific element. The value of this attribute must be unique. "
+    },
+    "importance": {
+        "tags": [
+            "iframe",
+            "img",
+            "link",
+            "script"
+        ],
+        "description": "Indicates the relative fetch priority for the resource. "
+    },
+    "integrity": {
+        "tags": [
+            "link",
+            "script"
+        ],
+        "description": "Specifies a Subresource Integrity value that allows browsers to verify what they fetch. "
+    },
+    "intrinsicsize": {
+        "deprecated": true,
+        "tags": [
+            "img"
+        ],
+        "description": "This attribute tells the browser to ignore the actual intrinsic size of the image and pretend it's the size specified in the attribute. "
+    },
+    "inputmode": {
+        "tags": [
+            "textarea"
+        ],
+        "description": "Provides a hint as to the type of data that might be entered by the user while editing the element or its contents. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute)."
+    },
+    "ismap": {
+        "tags": [
+            "img"
+        ],
+        "description": "Indicates that the image is part of a server-side image map. "
+    },
+    "itemprop": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute  "
+    },
+    "keytype": {
+        "tags": [
+            "keygen"
+        ],
+        "description": "Specifies the type of key generated. "
+    },
+    "kind": {
+        "tags": [
+            "track"
+        ],
+        "description": "Specifies the kind of text track. "
+    },
+    "label": {
+        "tags": [
+            "optgroup",
+            "option",
+            "track"
+        ],
+        "description": "Specifies a user-readable title of the element. "
+    },
+    "lang": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Defines the language used in the element. "
+    },
+    "language": {
+        "deprecated": true,
+        "tags": [
+            "script"
+        ],
+        "description": "Defines the script language used in the element. "
+    },
+    "loading": {
+        "experimental": true,
+        "tags": [
+            "img",
+            "iframe"
+        ],
+        "description": "Indicates if the element should be loaded lazily (loading=\"lazy\") or loaded immediately (loading=\"eager\"). "
+    },
+    "list": {
+        "tags": [
+            "input"
+        ],
+        "description": "Identifies a list of pre-defined options to suggest to the user. "
+    },
+    "loop": {
+        "tags": [
+            "audio",
+            "bgsound",
+            "marquee",
+            "video"
+        ],
+        "description": "Indicates whether the media should start playing from the start when it's finished. "
+    },
+    "low": {
+        "tags": [
+            "meter"
+        ],
+        "description": "Indicates the upper bound of the lower range. "
+    },
+    "manifest": {
+        "deprecated": true,
+        "tags": [
+            "html"
+        ],
+        "description": "Specifies the URL of the document's cache manifest.Note: This attribute is obsolete, use <link rel=\"manifest\"> instead."
+    },
+    "max": {
+        "tags": [
+            "input",
+            "meter",
+            "progress"
+        ],
+        "description": "Indicates the maximum value allowed. "
+    },
+    "maxlength": {
+        "tags": [
+            "input",
+            "textarea"
+        ],
+        "description": "Defines the maximum number of characters allowed in the element. "
+    },
+    "minlength": {
+        "tags": [
+            "input",
+            "textarea"
+        ],
+        "description": "Defines the minimum number of characters allowed in the element. "
+    },
+    "media": {
+        "tags": [
+            "a",
+            "area",
+            "link",
+            "source",
+            "style"
+        ],
+        "description": "Specifies a hint of the media for which the linked resource was designed. "
+    },
+    "method": {
+        "tags": [
+            "form"
+        ],
+        "description": "Defines which HTTP method to use when submitting the form. Can be GET (default) or POST. "
+    },
+    "min": {
+        "tags": [
+            "input",
+            "meter"
+        ],
+        "description": "Indicates the minimum value allowed. "
+    },
+    "multiple": {
+        "tags": [
+            "input",
+            "select"
+        ],
+        "description": "Indicates whether multiple values can be entered in an input of the type email or file. "
+    },
+    "muted": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Indicates whether the audio will be initially silenced on page load. "
+    },
+    "name": {
+        "tags": [
+            "button",
+            "form",
+            "fieldset",
+            "iframe",
+            "input",
+            "keygen",
+            "object",
+            "output",
+            "select",
+            "textarea",
+            "map",
+            "meta",
+            "param"
+        ],
+        "description": "Name of the element. For example used by the server to identify the fields in form submits. "
+    },
+    "novalidate": {
+        "tags": [
+            "form"
+        ],
+        "description": "This attribute indicates that the form shouldn't be validated when submitted. "
+    },
+    "open": {
+        "tags": [
+            "details",
+            "dialog"
+        ],
+        "description": "Indicates whether the contents are currently visible (in the case of a <details> element) or whether the dialog is active and can be interacted with (in the case of a <dialog> element)."
+    },
+    "optimum": {
+        "tags": [
+            "meter"
+        ],
+        "description": "Indicates the optimal numeric value. "
+    },
+    "pattern": {
+        "tags": [
+            "input"
+        ],
+        "description": "Defines a regular expression which the element's value will be validated against. "
+    },
+    "ping": {
+        "tags": [
+            "a",
+            "area"
+        ],
+        "description": "The ping attribute specifies a space-separated list of URLs to be notified if a user follows the hyperlink. "
+    },
+    "placeholder": {
+        "tags": [
+            "input",
+            "textarea"
+        ],
+        "description": "Provides a hint to the user of what can be entered in the field. "
+    },
+    "poster": {
+        "tags": [
+            "video"
+        ],
+        "description": "A URL indicating a poster frame to show until the user plays or seeks. "
+    },
+    "preload": {
+        "tags": [
+            "audio",
+            "video"
+        ],
+        "description": "Indicates whether the whole resource, parts of it or nothing should be preloaded. "
+    },
+    "radiogroup": {
+        "tags": [
+            "command"
+        ],
+        "description": " "
+    },
+    "readonly": {
+        "tags": [
+            "input",
+            "textarea"
+        ],
+        "description": "Indicates whether the element can be edited. "
+    },
+    "referrerpolicy": {
+        "tags": [
+            "a",
+            "area",
+            "iframe",
+            "img",
+            "link",
+            "script"
+        ],
+        "description": "Specifies which referrer is sent when fetching the resource. "
+    },
+    "rel": {
+        "tags": [
+            "a",
+            "area",
+            "link"
+        ],
+        "description": "Specifies the relationship of the target object to the link object. "
+    },
+    "required": {
+        "tags": [
+            "input",
+            "select",
+            "textarea"
+        ],
+        "description": "Indicates whether this element is required to fill out or not. "
+    },
+    "reversed": {
+        "tags": [
+            "ol"
+        ],
+        "description": "Indicates whether the list should be displayed in a descending order instead of a ascending. "
+    },
+    "role": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Defines an explicit role for an element for use by assistive technologies. "
+    },
+    "rows": {
+        "tags": [
+            "textarea"
+        ],
+        "description": "Defines the number of rows in a text area. "
+    },
+    "rowspan": {
+        "tags": [
+            "td",
+            "th"
+        ],
+        "description": "Defines the number of rows a table cell should span over. "
+    },
+    "sandbox": {
+        "tags": [
+            "iframe"
+        ],
+        "description": "Stops a document loaded in an iframe from using certain features (such as submitting forms or opening new windows). "
+    },
+    "scope": {
+        "tags": [
+            "th"
+        ],
+        "description": "Defines the cells that the header test (defined in the th element) relates to. "
+    },
+    "scoped": {
+        "deprecated": true,
+        "tags": [
+            "style"
+        ],
+        "description": " "
+    },
+    "selected": {
+        "tags": [
+            "option"
+        ],
+        "description": "Defines a value which will be selected on page load. "
+    },
+    "shape": {
+        "tags": [
+            "a",
+            "area"
+        ],
+        "description": " "
+    },
+    "size": {
+        "tags": [
+            "input",
+            "select"
+        ],
+        "description": "Defines the width of the element (in pixels). If the element's type attribute is text or password then it's the number of characters. "
+    },
+    "sizes": {
+        "tags": [
+            "link",
+            "img",
+            "source"
+        ],
+        "description": " "
+    },
+    "slot": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Assigns a slot in a shadow DOM shadow tree to an element. "
+    },
+    "span": {
+        "tags": [
+            "col",
+            "colgroup"
+        ],
+        "description": " "
+    },
+    "spellcheck": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Indicates whether spell checking is allowed for the element. "
+    },
+    "src": {
+        "tags": [
+            "audio",
+            "embed",
+            "iframe",
+            "img",
+            "input",
+            "script",
+            "source",
+            "track",
+            "video"
+        ],
+        "description": "The URL of the embeddable content. "
+    },
+    "srcdoc": {
+        "tags": [
+            "iframe"
+        ],
+        "description": " "
+    },
+    "srclang": {
+        "tags": [
+            "track"
+        ],
+        "description": " "
+    },
+    "srcset": {
+        "tags": [
+            "img",
+            "source"
+        ],
+        "description": "One or more responsive image candidates. "
+    },
+    "start": {
+        "tags": [
+            "ol"
+        ],
+        "description": "Defines the first number if other than 1. "
+    },
+    "step": {
+        "tags": [
+            "input"
+        ],
+        "description": " "
+    },
+    "style": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Defines CSS styles which will override styles previously set. "
+    },
+    "summary": {
+        "deprecated": true,
+        "tags": [
+            "table"
+        ],
+        "description": " "
+    },
+    "tabindex": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Overrides the browser's default tab order and follows the one specified instead. "
+    },
+    "target": {
+        "tags": [
+            "a",
+            "area",
+            "base",
+            "form"
+        ],
+        "description": "Specifies where to open the linked document (in the case of an <a> element) or where to display the response received (in the case of a <form> element)"
+    },
+    "title": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Text to be displayed in a tooltip when hovering over the element. "
+    },
+    "translate": {
+        "global": true,
+        "tags": [],
+        "description": "Global attribute Specify whether an element's attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged. "
+    },
+    "type": {
+        "tags": [
+            "button",
+            "input",
+            "command",
+            "embed",
+            "object",
+            "script",
+            "source",
+            "style",
+            "menu",
+            "link"
+        ],
+        "description": "Defines the type of the element. "
+    },
+    "usemap": {
+        "tags": [
+            "img",
+            "input",
+            "object"
+        ],
+        "description": " "
+    },
+    "value": {
+        "tags": [
+            "button",
+            "data",
+            "input",
+            "li",
+            "meter",
+            "option",
+            "progress",
+            "param"
+        ],
+        "description": "Defines a default value which will be displayed in the element on page load. "
+    },
+    "width": {
+        "tags": [
+            "canvas",
+            "embed",
+            "iframe",
+            "img",
+            "input",
+            "object",
+            "video"
+        ],
+        "description": "For the elements listed here, this establishes the element's width. Note: For all other instances, such as <div>, this is a legacy attribute, in which case the CSS width property should be used instead. Indicates whether the text should be wrapped "
+    },
+    "wrap": {
+        "tags": [
+            "textarea"
+        ],
+        "description": ""
+    }
+}

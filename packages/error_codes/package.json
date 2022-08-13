@@ -1,0 +1,26 @@
+{
+    "name": "judo-errors",
+    "version": "0.0.0",
+    "description": "JS Based Testing Framework",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "node ./test/error-codes.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GregoryBriggs/Judo.git"
+    },
+    "keywords": [
+        "errors"
+    ],
+    "author": "Gregory Briggs",
+    "license": "AGPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/GregoryBriggs/Judo/issues"
+    },
+    "homepage": "https://github.com/GregoryBriggs/Judo/error_code#readme",
+    "dependencies": {
+        "judo-errors": "^0.0.0"
+    }
+}

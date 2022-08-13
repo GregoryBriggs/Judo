@@ -1,0 +1,35 @@
+{
+  "_id": "6292f11b222091bd6f99d868",
+  "index": 0,
+  "guid": "a12d3439-03b5-40af-920a-8a09ce6c0e60",
+  "isActive": false,
+  "nestedList": [],
+  "nestedObject": {
+    "name": "John",
+    "age": 30,
+    "cars": [
+      {
+        "name": "Ford",
+        "models": []
+      },
+      {
+        "name": "Fiat",
+        "models": [
+          {
+            "name": "500",
+            "models": [
+              {
+                "name": "Panda"
+              }
+            ],
+            "models2": [
+              {
+                "name": "Panda"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
